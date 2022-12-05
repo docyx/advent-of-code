@@ -1,0 +1,12 @@
+{
+  "name": "aoc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx $YEAR/$DAY.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "tsx": "^3.12.1"
+  }
+}
