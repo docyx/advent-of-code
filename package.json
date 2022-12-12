@@ -4,12 +4,10 @@
   "type": "module",
   "scripts": {
     "start": "tsx $YEAR/$DAY.ts",
-    "index": "tsx scripts/inject-index.ts",
-    "prepare": "husky install"
+    "index": "tsx scripts/inject-index.ts"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
-    "husky": "^8.0.2",
     "tsx": "^3.12.1"
   }
 }
