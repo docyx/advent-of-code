@@ -50,7 +50,7 @@ const acceptStage = await rl.question(
 )
 
 if (acceptStage === '' || acceptStage.toLowerCase() === 'y') {
-  writeFile('README.md', newReadme)
+  await writeFile('README.md', newReadme)
 }
 
 rl.close()
